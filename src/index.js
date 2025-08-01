@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import Pizza from "./components/Pizza.js";
+import Menu from "./components/Menu.js";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import "./index.css";
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <Pizza />
+      <Menu />
       <Footer />
     </div>
   );

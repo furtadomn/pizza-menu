@@ -1,29 +1,15 @@
-import data from "./../data/pizzaData.js";
+import Pizza from "./Pizza.js";
+import data from "./../data/pizzaData";
 
 function Menu() {
-  const pizzas = data.map((pizza) => {
-    let soldOut;
-
-    if (pizza.soldOut) {
-      soldOut = "SOLD OUT";
-      pizza.price = "";
-    }
-
-    return (
-      <div>
-        <img src={pizza.photoName} alt={pizza.name} />
-        <h3>{pizza.name}</h3>
-        <p>{pizza.ingredients}</p>
-        <p>{pizza.price}</p>
-        <p>{soldOut}</p>
-      </div>
-    );
-  });
-
   return (
     <main className="menu">
-      <h2>Our menu</h2>
-      <div>{pizzas}</div>
+      <h2>Our Menu</h2>
+      <ul className="pizzas">
+        {data.map((pizza) => (
+          <Pizza pizzaObj={pizza} key={pizza.name} />
+        ))}
+      </ul>
     </main>
   );
 }
