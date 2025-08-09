@@ -1,8 +1,8 @@
-# Fast React Pizza Co. (WIP)
+# 🍕 Fast React Pizza Co. (WIP)
 
 React Pizza Menu is an introductory React.js application demonstrating basic concepts like reusable components, JSX, props passing, conditional and list rendering, and dynamic styling. The project delivers a simple pizza menu focused on structure and best practices, without interactivity yet.
 
-| :placard: Project    |                                                                                      |
+|                      |                                                                                      |
 | -------------------- | ------------------------------------------------------------------------------------ |
 | :sparkles: Name      | **Fast React Pizza Co.**                                                             |
 | :label: Technologies | javascript, html, css, react                                                         |
