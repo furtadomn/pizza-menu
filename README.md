@@ -2,12 +2,6 @@
 
 React Pizza Menu is an introductory React.js application demonstrating basic concepts like reusable components, JSX, props passing, conditional and list rendering, and dynamic styling. The project delivers a simple pizza menu focused on structure and best practices, without interactivity yet.
 
-|                      |                                                                                      |
-| -------------------- | ------------------------------------------------------------------------------------ |
-| :sparkles: Name      | **Fast React Pizza Co.**                                                             |
-| :label: Technologies | javascript, html, css, react                                                         |
-| :fire: Course        | [The Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/) |
-
 ## Installation
 
 1. Clone the repository by running the following command in your terminal:
